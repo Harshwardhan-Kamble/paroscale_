@@ -163,6 +163,10 @@ correct.
 * Upload of all source code for test and production, including any any artifacts
 (build scripts, etc.) to the provided git repository.
 
+* Your code builds from a Makefile on a recent Ubuntu image and produces a
+binary called ** niova-candidate-test-server ** in the ** ./test-driver-bin/ **
+directory.
+
 * An accurate and representative git commit history.
 
 * Permalink to the LLM session(s) if an LLM was used.  This may be added to the
@@ -173,8 +177,6 @@ your team maintaining
 
 * Your code must pass the supplied test harness using different random seeds and
 concurrency factor up to 100
-
-* Your code builds from a Makefile on a recent Ubuntu image.
 
 ### Nice to Have
 Stretch goals. If you fulfill these requirements, you get bonus points, but they

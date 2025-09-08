@@ -1,4 +1,4 @@
-# Niova Systems' Coding Challenge
+# Niova Systems Coding Challenge
 
 At Niova Systems, we have found little to no correlation between doing well in
 brain-teasers and "whiteboard coding" and being a world-class software engineer.

@@ -49,7 +49,7 @@ Where:
    e.g. `mysql`, `openssl`, `pkg-config`, `postgresql`, etc.
 
 * `<dependencies>` is optional, and if present it will be a comma-delimited list
-   of packages that need to be present before `<package>` is installed.
+   of packages that need to be present before `<package>` is indexed.
    e.g. `cmake,sphinx-doc,xz`
 
 * The message always ends with the character `\n`
@@ -70,7 +70,7 @@ The response code returned should be as follows:
 
 * For `INDEX` commands, the server returns `OK\n` if the package can be indexed.
 It returns `FAIL\n` if the package cannot be indexed because some of its
-dependencies aren't indexed yet and need to be installed first. If a package
+dependencies aren't indexed yet and need to be indexed first. If a package
 already exists, then its list of dependencies is updated to the one provided
 with the latest command.
 

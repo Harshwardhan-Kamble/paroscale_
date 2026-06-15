@@ -1,0 +1,14 @@
+LLM Usage Disclosure
+
+I used ChatGPT during the development of this coding challenge.
+
+The assistance was primarily used for:
+
+* Understanding and clarifying the problem requirements
+* Discussing implementation approaches
+* Debugging issues encountered during development
+* Reviewing the solution and identifying potential improvements
+
+All code was implemented, tested, modified, and validated by me. The final solution, testing, and submission decisions were made based on my own understanding and verification of the requirements.
+
+The supplied test harness was used extensively to validate correctness and concurrency behavior.
